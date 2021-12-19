@@ -1,5 +1,5 @@
-const token = "5066885143:AAG6nmhxChXnJUEHJhHOVLSaBWhi7j-Z9rQ"
-const SSID = "1xXK6yydOKskG3ELFeJl9Vny1YM-0Y_2uAkxTjLd9a6c"
+const token = "" // Telegram token
+const SSID = "" // Spreadsheet ID
 const DATA_FIELD_NUMBER = 10
 const COLUMN_ID_BARANG = 5
 const COLUMN_COMMENT = 8
@@ -16,8 +16,7 @@ function doPost(e) {
     chatId = String(updates.message.from.id)
   }
   else{
-    updates = {"update_id":68498888,
-"message":{"message_id":24,"from":{"id":2018101950,"is_bot":false,"first_name":"Kenan","last_name":"Faresta","language_code":"en"},"chat":{"id":2018101950,"first_name":"Lisa","last_name":"Amane","type":"private"},"date":1638280592,"text":"/getall"}}
+    updates = //Json data from telegram
     chatId = String(updates.message.from.id)
   }
   let doc = SpreadsheetApp.openById(SSID)
