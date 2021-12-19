@@ -1,2 +1,2 @@
 # Shopee-Affiliate-manager
-Save and manage from shopee and affiliate link product
+Save and manage shopee and affiliate link product
